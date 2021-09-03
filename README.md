@@ -1,6 +1,6 @@
 # Library: Favorites
 
-A module for [Library](https://github.com/lootbox/library) that allows you to maintain a list of your favorite objects.
+A module for [Library](https://github.com/server/library) that allows you to maintain a list of your favorite objects.
 
 ### Documentation
 
@@ -12,16 +12,16 @@ A module for [Library](https://github.com/lootbox/library) that allows you to ma
 
 First install the module with `NPM`:
 
-    $ npm install @lootbox/library-favorites
+    $ npm install @royalarchives/library-favorites
 
-If you are using [Library](https://github.com/lootbox/library) from the command-line include the module name in your arguments:
+If you are using [Library](https://github.com/server/library) from the command-line include the module name in your arguments:
 
-    $ node scanner.js @lootbox/library-favorites /path/to/files
+    $ node scanner.js @royalarchives/library-favorites /path/to/files
 
-If you are using [Library](https://github.com/lootbox/library) with NodeJS include the module name in the parameters:
+If you are using [Library](https://github.com/server/library) with NodeJS include the module name in the parameters:
 
-    const Library = require('@lootbox/library')
-    await Library.scan(['@lootbox/library-favorites'], ['/path/to/files'])
+    const Library = require('@royalarchives/library')
+    await Library.scan(['@royalarchives/library-favorites'], ['/path/to/files'])
 
 ## Index data structure
 

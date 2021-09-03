@@ -1,23 +1,23 @@
 {
-  "name": "@lootbox/library-favorites",
+  "name": "@royalarchives/catalog-favorites",
   "version": "1.0.0",
-  "description": "Adds a 'favorite' list of objects from your library",
+  "description": "Adds a 'favorite' list of objects from your catalog",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lootbox/lootbox.git"
+    "url": "git+https://github.com/server/server.git"
   },
-  "author": "lootbox <lootboxproject@protonmail.com> (http://github.com/lootbox)",
+  "author": "server <serverproject@protonmail.com> (http://github.com/server)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lootbox/lootbox/issues"
+    "url": "https://github.com/server/server/issues"
   },
-  "homepage": "https://github.com/lootbox/lootbox#readme",
+  "homepage": "https://github.com/server/server#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "lootbox": {
-    "description": "Adds favorites / pinning to your library items",
+  "server": {
+    "description": "Adds favorites / pinning to your catalog items",
     "icon": "star"
   }
 }

@@ -1,5 +1,5 @@
-module.exports = (library, options) => {
-  const pin = library.getObject(options.id)
+module.exports = (catalog, options) => {
+  const pin = catalog.getObject(options.id)
   if (!pin) {
     throw new Error('invalid-id')
   }

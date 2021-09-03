@@ -1,11 +1,11 @@
-module.exports = (library, options) => {
+module.exports = (catalog, options) => {
   const items = JSON.parse(options.items)
   for (const id of items) {
-    const pin = library.getObject(id)
+    const pin = catalog.getObject(id)
     if (!pin) {
       throw new Error('invalid-id')
     }
-    library.favorites.splice(library.favorites.indexOf(pin), 1)
+    catalog.favorites.splice(catalog.favorites.indexOf(pin), 1)
   }
-  library.writeSupplementalData()
+  catalog.writeSupplementalData()
 }
