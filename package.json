@@ -1,6 +1,6 @@
 {
   "name": "@royalarchives/catalog-favorites",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Adds a 'favorite' list of objects from your catalog",
   "main": "index.js",
   "repository": {
