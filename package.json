@@ -16,7 +16,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "server": {
+  "royalArchives": {
     "description": "Adds favorites / pinning to your catalog items",
     "icon": "star"
   }
