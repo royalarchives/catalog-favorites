@@ -18,6 +18,7 @@
   },
   "royalArchives": {
     "description": "Adds favorites / pinning to your catalog items",
-    "icon": "star"
+    "icon": "star",
+    "type": "catalog"
   }
 }
